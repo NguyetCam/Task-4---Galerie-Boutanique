@@ -23,6 +23,7 @@ figure p {font-size: 100%; margin: 5px; text-align: left}
 
 figure img {width: 256px; max-height: 170px}
 
-figcaption img {width: 16px; float: left; margin: 2px}
+figcaption {background-image: url("img/shadow.png"); background-size: cover;
+    height: 10px}
 
-.icon {background-image: url("img/icon.png")}
+figcaption img {width: 16px; float: left; margin: 2px}
